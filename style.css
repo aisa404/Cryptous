@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  color: #ffffff;
+  /* border: 1px solid red; */
+}
+
+body {
+  background-color: #1b004e;
+  margin: 0px;
+}
+
+.padding70 {
+  padding: 0 70px;
+}
+
+header {
+  background-image: url(img/bg.png);
+  background-size: cover;
+  height: 550px;
+  padding: 20px 70px 20px 70px;
+}
+
+nav {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-content-text {
+  width: 600px;
+  padding-top: 40px;
+}
+
+#header-img,
+#header-img img {
+  position: relative;
+  z-index: 1;
+}
+
+#header-img::before {
+  content: "";
+  position: absolute;
+  background-image: url("img/Frame.png");
+  width: 490px;
+  height: 309px;
+  top: 160px;
+  left: -150px;
+  z-index: 0;
+}
+
+.header-content {
+  justify-content: space-between;
+  display: flex;
+}
+
+.header-content p {
+  width: 500px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+header button {
+  border: 2px solid #eb5757;
+  border-radius: 50px;
+  background-color: transparent;
+  width: 152px;
+  height: 47px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+#get-whitelisted {
+  background: #eb5757;
+  width: 191px;
+}
+
+.crypto-prices {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+  vertical-align: middle;
+}
+
+table,
+td,
+tr {
+  border-top: 0.6px solid #bdbdbd;
+  border-bottom: 0.6px solid #bdbdbd;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+.vertical-middle,
+.vertical-middle img {
+  vertical-align: middle;
+}
+
+.vertical-bottom {
+  vertical-align: bottom;
+  text-align: right;
+}
+
+tr {
+  height: 65px;
+}
+
+.green-text {
+  color: #1aff7c;
+}
+
+.red-text {
+  color: #ff1a1a;
+}
+
+table span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 11px;
+  color: #828282;
+}
+
+#crypto-platform {
+  background: #fff6fb;
+  padding-top: 30px;
+}
+
+#crypto-platform * {
+  color: black;
+}
+
+#crypto-platform h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 14px;
+}
+
+#crypto-platform ul li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  padding-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  padding: 30px;
+}
+
+#crypto-platform ul {
+  list-style: none;
+  padding: 0;
+}
